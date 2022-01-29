@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel=stylesheet href="./css/styles.css">
+</head>
+
+<body>
+	<header>
+		<h1>MY BLOG</h1>
+	</header>
+
+	<div class="horizon-line"></div>
+
+	<div class="maincontent">
+		<article id=postlist>
+			<h3>PAST POSTS</h3>
+			<ul class="leftlist"></ul>
+			<button class="createBtn" onclick="openPopUp()">Create New Post</button>
+
+			<!-- <div class="form-popup" id="createForm" class="modal">
+				<form class="create-form-container" class="modal-content">
+					<h1>New Post</h1>
+
+					<label for="title"><b>Title</b></label>
+					<input type="text" id="posttitle" placeholder="Enter Title" name="title" required>
+
+					<label for="text"><b>Text</b></label>
+					<input type="text" id="posttext" placeholder="Enter Text" name="text" required>
+
+					<button class="btn-save" onclick="savepost()">Save</button>
+					<button type="button" class="btn cancel" onclick="closeSaveForm()">Close</button>
+				</form>
+			</div> -->
+
+		</article>
+
+
+
+		<section id="postdetail">
+			<ul></ul>
+		</section>
+	</div>
+
+
+
+	<div id="popup" class="popUpDisplay">
+		<div class="data">
+			<h3>Create/Edit Post</h3>
+			<br>
+			<div style="height:60px;">
+				<label for="title"><b>Title</b></label>
+				<input type="text" id="posttitle" placeholder="Enter Title" name="title" required>
+			</div>
+			<div style="height:60px;">
+				<label for="text"><b>Text</b></label>
+				<input type="text" id="posttext" placeholder="Enter Text" name="text" required>
+			</div>
+			<div style="margin:20px;">
+				<span class="button" onclick="savepost(), closePopUp()">Save</span>
+				<span class="button" id="Cancel" onClick="closePopUp()">Cancel</span>
+			</div>
+
+		</div>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="./js/scripts.js"></script>
+
+
+</body>
+
+</html

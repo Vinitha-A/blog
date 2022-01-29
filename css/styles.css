@@ -1,0 +1,176 @@
+body,.maincontent{
+    height : 100%;
+}
+
+
+.horizon-line{
+    border-bottom: 4px solid black;
+}
+
+.maincontent{
+    display:flex;
+}
+
+#postlist{
+    flex: 30;
+    border-right:3px solid black;
+    text-align: center;
+}
+
+#postdetail{
+    flex : 70;
+}
+
+ul{
+    padding: 0;
+}
+
+.articleitem{
+    list-style-type: none;
+}
+.create-form-container {
+        max-width: 300px;
+        padding: 10px;
+        background-color: white;
+      
+}
+
+.top{
+    color: green;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.content{
+    padding:10px;
+}
+
+.create-form-container 
+ input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  .create-form-container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .create-form-container button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+
+  .create-form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .create-form-container button:hover {
+    opacity: 1;
+  }
+
+button{    background: skyblue;
+    border: 1px solid lightblue;
+    height: 50px;
+    padding: 14px;
+    cursor: pointer;
+    margin:10px;
+}
+
+li{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  .popUpTitle {
+    background-color: #000000;
+    height: 40px;
+    width: 100%;
+}
+
+
+.popUpTitle img {
+    float: right;
+    margin-right: 2px;
+    margin-top: 5px;
+}
+
+
+.data {
+    background-color: #FFFFFF;
+    height: auto;
+    overflow: hidden;
+ font-size: 14px;
+    padding: 25px 25px 50px;
+    width: auto;
+}
+
+
+.buttons li {
+    cursor: pointer;
+    float: left;
+    height: 29px;
+    margin-right: 15px;
+    width: 134px;
+}
+
+
+span.button {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 25px;
+    text-align: center;
+}
+
+
+.popUpDisplay {
+    position: relative;
+    /* width: 440px; */
+    /* height: 300px; */
+    width: 80%;
+    /* left: 250px; */
+    z-index: 1001;
+    margin: 30px auto;
+}
+
+
+.dimLayer {
+    display: none;
+    outline: 0px none;
+    height: 100%;
+    width: 100%;
+    background: #A9A9A9;
+    top: 0px;
+    left: 0px;
+    z-index: 900;
+    position: absolute;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    -khtml-opacity: 0.5;
+    -moz-opacity: 0.5;
+}
